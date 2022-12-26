@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@600&family=Rubik+80s+Fade&display=swap');
+body{
+    background-color: black;
+    color: #fff;
+    font-family: Orbitron;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.list li a{
+    transition: all 0.3s;
+}
+.list li a:hover{
+    color: rgb(238,174,202);
+    color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url(https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin: 0px;
+    font-size: 72px;
+    color: #fff;
+    text-shadow: 0 0 2px #111;
+}
+.title{
+text-align: center;
+font-size: 32px;
+}
+.main__content{
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding: 0 20px;
+}
+.text__moon{
+    width: 700px;
+    padding-left: 50px;
+}
+.img__moon{
+    padding-left: 100px;
+}
+.img__jupiter{
+    padding-left: 150px;
+    height: 300px;
+}
